@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h=fij_6y@kfhm%_!z!0pt_e&f%ir2^t^lyf_uz&lr8#j%rjm=l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://djangosmapleproject.onrender.com']
+ALLOWED_HOSTS = ['djangosmapleproject.onrender.com']
 
 
 # Application definition
