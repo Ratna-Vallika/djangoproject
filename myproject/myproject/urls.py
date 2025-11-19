@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from basic.views import sample,sample1,sampleInfo
 from basic.views import dynamicResponse
-from basic.views import calculator,health,addStudent,job1,job2
+from basic.views import calculator,health,addStudent,job1,job2,signUp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,7 +30,8 @@ urlpatterns = [
      path('health/',health),
      path('student/',addStudent),
      path('job1/',job1),
-     path('job2/',job2)
+     path('job2/',job2),
+     path('signUp/',signUp)
      
      
     
